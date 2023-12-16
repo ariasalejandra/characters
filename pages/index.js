@@ -4,20 +4,15 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <><Head>
+      <title>Ali's Toyhouse</title>
+      <link rel="icon" href="http://i122.photobucket.com/albums/o260/mhilka/minigifs/fetch_014-1.gif" />
+    </Head><main class='typewriter'>
+      <Header/>
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
+        <section><h1 classname='og-text-color'>Welcome to my Characters Website!</h1></section>
+        
+        <img classname='giffy' src="https://i.pinimg.com/originals/04/dc/ff/04dcffa457a7334ce63e74daf28a95f0.gif" alt="Guadalupe Hernandez" />
+      </main><Footer /></>
   )
 }
